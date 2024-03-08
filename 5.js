@@ -13,6 +13,7 @@ b) Evite usar funções prontas, como, por exemplo, reverse;
 
 function invertString(word){
     let newString = "";
+    
     for(i = word.length - 1; i >= 0 ; i--){
         newString += word[i];
     }
